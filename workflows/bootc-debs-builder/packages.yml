@@ -2101,6 +2101,7 @@ packages:
         digests:
           BOOTUPD_VENDOR_SHA256: "bootupd-{version}-vendor.tar.zstd"
     env:
+      BOOTC_VER: "v1.17.4"
       CARGO_HOME: "/build/rust"
       RUSTUP_HOME: "/build/rust"
     build: |
